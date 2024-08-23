@@ -6,13 +6,13 @@ public class CountDistinctChar {
 		// TODO Auto-generated method stub
 		
 		//*********MY CODE ***********
-				String s="111222489000555";
+				String s="1234556";
 				String res=" ";
 				char ch;
-				int total=0,dup=0;
+				int dup=0;
 				for (int i=0;i<s.length();i++)
 				{
-					ch=s.charAt(i);
+					ch=s.charAt(i);//0
 					int count=0;
 					for (int j=0;j<s.length();j++)
 					{
